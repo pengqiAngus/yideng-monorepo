@@ -1,0 +1,10 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error error: RPC failed; curl 28 Recv failure: Operation timed out
+17 error fatal: expected flush after ref listing
+17 error     at makeError (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:1579:31)
+17 error     at updateRemote (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9204:18)
+17 error     at isBehindUpstream (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9194:3)
+17 error     at VersionCommand.initialize (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9488:57)
+17 error     at VersionCommand.runCommand (/Users/anguske/project/yideng-monorepo/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:3297:36)
