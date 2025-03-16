@@ -1,0 +1,10 @@
+{
+  "packages": ["packages/*", "apps/*"],
+  "version": "independent",
+  "npmClient": "pnpm",
+  "command": {
+    "publish": {
+      "registry": "http://localhost:4873"
+    }
+  }
+}
